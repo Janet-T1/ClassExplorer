@@ -1,5 +1,8 @@
 import React from 'react'; 
 
+import Link from 'next/link';
+
+
 function Welcome() {
 
     return (
@@ -21,10 +24,10 @@ function Welcome() {
 
                 <div className="flex flex-col items-center space-y-4 mt-5 text-lg lg:flex-row lg:space-y-0 lg:space-x-4">
                     <button className="bg-red-800 hover:bg-red-900 text-white font-bold w-40 py-3">
-                    LogIn
+                        <Link href="../logIn"> Login </Link>
                     </button>
                     <button className="bg-red-800 hover:bg-red-900 text-white font-bold w-40 py-3">
-                    SignIn
+                        Sign Up
                     </button>
                 </div>
 
