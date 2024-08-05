@@ -27,7 +27,7 @@ function Welcome() {
                         <Link href="../logIn"> Login </Link>
                     </button>
                     <button className="bg-red-800 hover:bg-red-900 text-white font-bold w-40 py-3">
-                        Sign Up
+                        <Link href="../signIn"> Sign Up </Link>
                     </button>
                 </div>
 
