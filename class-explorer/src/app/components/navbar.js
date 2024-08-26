@@ -18,7 +18,7 @@ function NavBar() {
     return (
         <div className="z-10 w-full flex items-center justify-between font-mono text-sm bg-white border-b border-black p-5 relative">
             <div className="flex items-center">
-                <img src="/uofcLogo.png" className="w-12 sm:ml-5 lg:ml-5 lg:mr-5" alt="UofC Logo" />
+                <Link href="/home"> <img src="/uofcLogo.png" className="w-12 sm:ml-5 sm:mr-5 lg:ml-5 lg:mr-5" alt="UofC Logo" /></Link>
             </div>
             <div className="flex items-center w-full max-w-7xl mx-4">
                 <input
@@ -52,6 +52,9 @@ function NavBar() {
                             </li>
                             <li onClick={closeDropdown} className="p-2 hover:bg-gray-200 text-center"> 
                                 <Link href="../ratings"> My Remarks</Link> 
+                            </li>
+                            <li onClick={closeDropdown} className="p-2 hover:bg-gray-200 text-center"> 
+                                <Link href="../logIn"> Log Out</Link> 
                             </li>
                         </ul>
                     )}
