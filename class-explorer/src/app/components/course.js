@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Course = ({ title, description, linkUrl }) => {
   return (
@@ -11,7 +12,8 @@ const Course = ({ title, description, linkUrl }) => {
             <p className="text-sm "> {description} </p>
         </div> 
 
-        <button className="bg-[#2b2b2b] text-white  px-4 rounded hover:bg-black text-sm" > View </button> 
+        <button className="bg-[#2b2b2b] text-white  px-4 rounded hover:bg-black text-sm" > View  </button> 
+       
     </div> 
 
    

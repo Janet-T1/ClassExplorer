@@ -9,19 +9,19 @@ function Courses() {
       id: 1,
       title: "CPSC 413",
       description: "Design and analysis of algorithms",
-      linkUrl : "../"
+      linkUrl : "../coursePage"
     },
     {
       id: 2,
       title: "CPSC 471",
       description: "Database management systems",
-      linkUrl : "../"
+      linkUrl : "../coursePage"
     },
     {
       id: 3,
       title: "CPSC 441",
       description: "Computer Networks",
-      linkUrl: "../"
+      linkUrl: "../coursePage"
     },
   ];
 
